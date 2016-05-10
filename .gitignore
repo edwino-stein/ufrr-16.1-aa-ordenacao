@@ -7,7 +7,11 @@ composer.lock
 .~lock.*
 .idea
 .o
+*.txt
 tools/compileTemp.log
+bubblesort.txt
+insertionsort.txt
+selectionsort.txt
 
 #############################
 # Arquivos Gerados pelo OSX #

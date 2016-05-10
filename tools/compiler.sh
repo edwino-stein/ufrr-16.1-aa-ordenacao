@@ -16,8 +16,8 @@
 common=("common/src/stdInput.c" "common/src/stdOutput.c" "common/src/string.c" "common/src/console.c" "common/src/random.c");
 forceCommonCompilation=0;
 
-autoExec=1;
-showSplash=1;
+autoExec=0;
+showSplash=0;
 
 baseDir='./';
 dirBuild="build/";
