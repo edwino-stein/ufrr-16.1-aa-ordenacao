@@ -85,7 +85,10 @@ int readFile(String fileName, int data[], int bufferMax){
 }
 
 bool writeFile(String fileName, int data[], int size){
+
     FILE * file;
+    int countLine = 0;
+
     file = fopen (getCStr(fileName) , "w+");
 
     if (file == NULL){
@@ -93,7 +96,14 @@ bool writeFile(String fileName, int data[], int size){
     }
 
     for(int i = 0; i < size; i++){
+
+        countLine++;
         fprintf(file, "%d ", data[i]);
+
+        if(countLine >= 30){
+            fprintf(file, "\n");
+            countLine = 0;
+        }
     }
 
     fclose(file);
