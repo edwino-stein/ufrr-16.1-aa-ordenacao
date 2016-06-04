@@ -14,7 +14,7 @@ void intBubbleSort(int values[], unsigned int length){
         while(cursor != bigger){
 
             if(values[cursor] > values[cursor + 1]){
-                intSwap(&values[cursor], &values[cursor + 1]);
+                swap(&values[cursor], &values[cursor + 1]);
                 swapped = true;
             }
             cursor++;

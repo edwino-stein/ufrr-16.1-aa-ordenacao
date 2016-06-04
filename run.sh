@@ -1,7 +1,7 @@
  #!/bin/sh
 
 buildDir="./build/";
-dependencies="sorts/src/sorts.c sorts/src/bubbleSort.c sorts/src/insertionSort.c sorts/src/selectionSort.c";
+dependencies="sorts/src/bubbleSort.c sorts/src/insertionSort.c sorts/src/selectionSort.c";
 invocation="tools/compiler.sh";
 main="main";
 generate="generate";

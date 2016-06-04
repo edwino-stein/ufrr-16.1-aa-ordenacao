@@ -6,6 +6,4 @@
 #include "header/selectionSort.h"
 #include "header/insertionSort.h"
 
-void intSwap(int *var1, int *var2);
-
 #endif
