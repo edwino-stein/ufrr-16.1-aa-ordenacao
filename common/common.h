@@ -11,5 +11,6 @@
     #include "header/stdOutput.h"
     #include "header/console.h"
     #include "header/random.h"
+    #include "header/util.h"
 
 #endif

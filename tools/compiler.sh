@@ -13,7 +13,7 @@
 
 # ************************* Variaveis de Configuração **************************
 
-common=("common/src/stdInput.c" "common/src/stdOutput.c" "common/src/string.c" "common/src/console.c" "common/src/random.c");
+common=("common/src/stdInput.c" "common/src/stdOutput.c" "common/src/string.c" "common/src/console.c" "common/src/random.c" "common/src/util.c");
 forceCommonCompilation=0;
 
 autoExec=0;
