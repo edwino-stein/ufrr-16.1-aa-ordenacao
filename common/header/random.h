@@ -1,9 +1,13 @@
 #if !defined _COMMON_RANDOM
 #define _COMMON_RANDOM
 
-    int randInt(int maxValue);
+    unsigned int randInt(unsigned int max);
+    unsigned int randIntB2in(unsigned int min, unsigned int max);
     double randDouble();
-    char randChar(char maxChar, bool printableOnly);
-    bool randBool();
+    double randDoubleB2in(unsigned int min, unsigned int max);
+
+    char randChar();
+    char randCharPrintable(bool alphanumericOnly);
+    bool randBool(unsigned int toTrue, unsigned int toFalse);
 
 #endif
