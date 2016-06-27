@@ -5,5 +5,6 @@
 #include "header/bubbleSort.h"
 #include "header/selectionSort.h"
 #include "header/insertionSort.h"
+#include "header/quickSort.h"
 
 #endif
