@@ -1,4 +1,5 @@
 #include "../sorts.h"
+#include <stdlib.h>
 
 #define newArray(type, length) (type *) malloc(sizeof(type) * length)
 

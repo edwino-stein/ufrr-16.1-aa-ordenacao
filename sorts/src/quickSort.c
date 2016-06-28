@@ -13,7 +13,7 @@ void _intQuickSort(int values[], int start, int length){
         while(rBound > start && values[rBound] > pivot) rBound--;
 
         if(lBound <= rBound){
-            swap(&values[lBound], &values[rBound]);
+            sortSwapInt(&values[lBound], &values[rBound]);
             lBound++;
             rBound--;
         }

@@ -1,4 +1,5 @@
 #include "../sorts.h"
+#include <stdbool.h>
 
 void intBubbleSort(int values[], unsigned int length){
 
@@ -14,7 +15,7 @@ void intBubbleSort(int values[], unsigned int length){
         while(cursor != bigger){
 
             if(values[cursor] > values[cursor + 1]){
-                swap(&values[cursor], &values[cursor + 1]);
+                sortSwapInt(&values[cursor], &values[cursor + 1]);
                 swapped = true;
             }
             cursor++;
